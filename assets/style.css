@@ -1,0 +1,145 @@
+/* Estilo dos Botões*/
+.sub {
+    background-color: #0086be;
+    border: none;
+    color: white;
+    padding: 12px 54px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 18px;
+    font-weight: 900;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+}
+.sub:hover {
+    background: #079ddb;
+}
+.ltd {
+    border: 1px solid;
+    background-color: #16223c;
+    padding: 25px 40px;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+    border-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+/* Estilo do Footer + Diretório da Imagem */
+.footer{
+    background-image: url(footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 100px 0 100px 0;
+}
+/* Filtro */
+.invert{ 
+    filter: invert(100%);
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+.img2{
+    max-width:340px;
+    max-height:500px;
+    width: 700px;
+    height: 329px;
+}
+.img-with-text{
+    text-align: justify;
+    max-width: 368px;
+}
+.img-with-text img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo das Caixas do Formulário */
+.largebox {
+    display: block;
+    width: 100%;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Questrial;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.checkbox{
+    display: block;
+    width: 16%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* Grid */
+.container{
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr);
+    grid-gap: 120px;
+    justify-content: space-around;
+}
+
+
+.container .image-adjust {
+
+    max-width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-adjust img {
+    height: 300px;
+
+    align-self: center;
+}
+
+.image-adjust h3 {
+    padding: 20px 0;
+}
+
+.justificado {
+    text-align: justify;
+    text-justify:- inter-word;
+    color: #4d4d4d;
+}
+
+
+/* pra vc fazer o responsivo:
+
+.container {
+    grid-template-columns: 1fr;
+}
+
+*/
