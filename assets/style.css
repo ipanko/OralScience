@@ -131,3 +131,14 @@
 .list div + div{
      margin-top: 6px;
 }
+.conteudo{
+    display: table;
+}
+.imagem{
+    display:table-cell;
+    float: left;
+}
+.texto{
+    display: table-cell;
+    float: left;
+}
