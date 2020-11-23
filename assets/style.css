@@ -122,7 +122,7 @@
     color: #4d4d4d;
 }
 /*Estilização para Mobile*/
-@media (max-width: 1024px){
+@media (max-width: 700px){
 .container {
     grid-template-columns: 1fr;
  }
@@ -130,6 +130,7 @@
 /* Conteúdo Programático */
 .list div + div{
      margin-top: 6px;
+/* Texto+Imagem Zoom*/
 }
 .conteudo{
     display: table;
@@ -137,6 +138,10 @@
 .imagem{
     display:table-cell;
     float: left;
+    max-width:100px;
+    max-height:150px;
+    width: auto;
+    height: auto;
 }
 .texto{
     display: table-cell;
