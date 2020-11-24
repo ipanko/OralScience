@@ -152,7 +152,7 @@ body {
 
     .text-justify {
         padding-bottom: 0px !important;
-        margin: 0;
+        margin: 20px;
     }
 
     .text-justify:nth-child(1) {
@@ -163,8 +163,8 @@ body {
         display: inline;
     }
     .img-with-text{
-       width: 100%;
-       height: 80%;
+       width: 89%;
+       height: 90%;
        padding-top: 5px;
     }
 }
