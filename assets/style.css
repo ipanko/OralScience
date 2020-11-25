@@ -167,6 +167,9 @@ body {
        height: 90%;
        padding-top: 5px;
     }
+    .curso{
+       padding-left: 6%;
+    }
 }
 /* Conteúdo Programático */
 .list div + div{
@@ -186,4 +189,7 @@ body {
 .texto{
     display: table-cell;
     float: left;
+}
+.text-justify-normal {
+  text-align: justify !important;
 }
